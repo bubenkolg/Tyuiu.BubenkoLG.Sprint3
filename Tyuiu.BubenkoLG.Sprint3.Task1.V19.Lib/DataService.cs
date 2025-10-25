@@ -13,10 +13,10 @@ namespace Tyuiu.BubenkoLG.Sprint3.Task1.V19.Lib
         {
             double res = 1;
             int k = startValue;
-            while (k != stopValue)
+            while (k <= stopValue)
             {
-                res = res * (Math.Cos(value) + (k / 4));
-                k += 1;
+                res *= Math.Cos(value) + (k / 4.0);
+                k++;
             }
             return Math.Round(res,3);
         }
