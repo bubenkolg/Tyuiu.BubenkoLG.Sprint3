@@ -12,10 +12,11 @@ namespace Tyuiu.BubenkoLG.Sprint3.Task2.V14.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             int k = startValue;
-            double res = 1.0;
+            double res = 1;
+            double x = Convert.ToDouble(value);
             do
             {
-                res *= Math.Pow(value/k ,3.0);
+                res *= (x / k)*(x / k)* (x / k);
                 k++;
             } while (k <= stopValue);
             return Math.Round(res ,3);
