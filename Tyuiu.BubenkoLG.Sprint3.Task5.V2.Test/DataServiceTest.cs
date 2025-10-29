@@ -8,7 +8,7 @@ namespace Tyuiu.BubenkoLG.Sprint3.Task5.V2.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidCalculate()
+        public void ValidGetSumSumSeries()
         {
             DataService ds = new DataService();
 
