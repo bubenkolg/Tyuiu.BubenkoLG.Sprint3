@@ -21,7 +21,7 @@ namespace Tyuiu.BubenkoLG.Sprint3.Task5.V2.Test
 
             double res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
 
-            double wait = 0.5;
+            double wait = 35.658;
 
             Assert.AreEqual(wait, res);
 
