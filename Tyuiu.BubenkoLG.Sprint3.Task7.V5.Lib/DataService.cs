@@ -23,7 +23,7 @@ namespace Tyuiu.BubenkoLG.Sprint3.Task7.V5.Lib
                 {
                     return null_0;
                 }
-                y = Math.Round((2*Math.Sin(x) / 3*x+1.2) + Math.Cos(x) - 7*x*2, 2);
+                y = Math.Round(((2*Math.Sin(x)) / (3*x+1.2)) + Math.Cos(x) - 7*x*2, 2);
                 result[count] = y;
                 count++;
             }

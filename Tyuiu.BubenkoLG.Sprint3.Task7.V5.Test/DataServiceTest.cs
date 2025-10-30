@@ -20,7 +20,7 @@ namespace Tyuiu.BubenkoLG.Sprint3.Task7.V5.Test
             double[] valueArray;
             valueArray = new double[len];
             valueArray = ds.GetMassFunction(startValue, stopValue);
-            double[] wait = { 68.29, 54.53, 42.49, 30.00, 16.30, 2.20, -11.70, -26.00, -41.51, -57.47, -71.71 };
+            double[] wait = { 70.14, 55.21, 41.05, 27.96, 15.48, 1.00, -13.06, -28.16, -42.96, -56.77, -69.83 };
 
             CollectionAssert.AreEqual(wait, valueArray);
 
