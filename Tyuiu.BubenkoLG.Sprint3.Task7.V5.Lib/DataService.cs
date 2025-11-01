@@ -11,7 +11,6 @@ namespace Tyuiu.BubenkoLG.Sprint3.Task7.V5.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            double[] null_0 = new double[0];
             double[] result;
             int len = (stopValue - startValue) + 1;
             result = new double[len];
@@ -21,7 +20,7 @@ namespace Tyuiu.BubenkoLG.Sprint3.Task7.V5.Lib
             {
                 if ((3 * x + 1.2) == 0)
                 {
-                    return null_0;
+                    y = 0;
                 }
                 y = Math.Round(((2*Math.Sin(x)) / (3*x+1.2)) + Math.Cos(x) - 7*x*2, 2);
                 result[count] = y;
